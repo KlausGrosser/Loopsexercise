@@ -11,11 +11,14 @@ public class Assignment {
         System.out.println(individualCharacter(str));
     }
 public static String individualCharacter(String str) {
-    int i;
-        for(i = 0; i < str.length(); i++)
+    int i = 0;
+        while(i < str.length())
     {
         System.out.println("The Character at Position "  + i + " =  " + str.charAt(i));
+    i++;
     }
         return "All characters have been printed.";
 }
+
+
 }
